@@ -3,7 +3,7 @@ import { metadata } from "./layout";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between pt-8 px-8 md:px-24">
+    <main className="flex min-h-screen flex-col items-center justify-between pt-8 px-8 md:px-24 text-white">
       <header className="flex flex-col items-center">
         <Image
           src="/logo.png"
