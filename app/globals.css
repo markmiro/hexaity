@@ -24,4 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  background-image: linear-gradient(black, #00000000, black), url(/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
