@@ -23,15 +23,15 @@ export default function Home() {
         <p className="text-md leading-snug">
           Mark Miro and George Michel started Hexaity Consulting out of a desire
           to bring about a new kind of consultancy. We were born out of
-          Sacramento's local rhizomatic milieu.
+          Sacramentoˈs local rhizomatic milieu.
         </p>
         <p className="text-sm text-white/50">
           Haecceity (/hɛkˈsiːɪti, hiːk-/; from the Latin haecceitas, which
-          translates as "thisness") is a term from medieval scholastic
-          philosophy, first coined by followers of Duns Scotus to denote a
-          concept that he seems to have originated: the irreducible
+          translates as &ldquo;thisness&rdquo;) is a term from medieval
+          scholastic philosophy, first coined by followers of Duns Scotus to
+          denote a concept that he seems to have originated: the irreducible
           determination of a thing that makes it this particular thing.
-          Haecceity is a person's or object's thisness
+          Haecceity is a personˈs or objectˈs thisness
           {/* TODO: link to wikipedia */}
         </p>
         <p className="text-center leading-8">contact [at] hexaity [dot] com</p>
