@@ -32,6 +32,12 @@ export default function Home() {
           <br />
           rapid prototyping, WebGL/GLSL, Unity
         </p>
+        <div>
+          <p className="text-xs opacity-80 text-center mb-3">
+            Bringing experience from:
+          </p>
+          <img src="/logos.svg" alt="logos" className="opacity-50" />
+        </div>
         <div className="max-w-[600px] divide-y divide-white/10 *:p-4 md:*:p-8 bg-white/10 backdrop-blur-md rounded-t-xl">
           <div className="flex flex-col sm:flex-row gap-4 text-sm">
             <Image
