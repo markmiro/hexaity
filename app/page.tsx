@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <Image
+      {/* <Image
         src={bgUrl}
         loading="lazy"
         className="fixed top-0 left-0 h-full object-cover bg-black pointer-events-none"
@@ -16,7 +16,7 @@ export default function Home() {
         alt=""
         placeholder="blur"
         blurDataURL={`/_next/image?url=${bgUrl}&w=16&q=50`}
-      />
+      /> */}
       <main className="z-0 relative flex min-h-screen flex-col items-center justify-between pt-8 px-8 md:px-24 text-white">
         <header className="flex flex-col items-center">
           <Image
