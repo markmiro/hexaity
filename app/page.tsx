@@ -39,7 +39,7 @@ export default function Home() {
               width={avatarSize}
               height={avatarSize}
               alt="Mark Miro"
-              className="shrink-0 rounded-full grayscale self-start"
+              className="bg-white/10 shrink-0 rounded-full grayscale self-start"
             />
             <p>
               Mark is a creative JavaScript and React developer / designer based
@@ -53,7 +53,7 @@ export default function Home() {
               width={avatarSize}
               height={avatarSize}
               alt="George Michel"
-              className="shrink-0 grow-0 rounded-full grayscale"
+              className="bg-white/10 shrink-0 grow-0 rounded-full grayscale"
             />
             <p>
               George enjoys building things, including web and mobile
