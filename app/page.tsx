@@ -33,53 +33,57 @@ export default function Home() {
           rapid prototyping, WebGL/GLSL, Unity
         </p>
         <div className="max-w-[600px] divide-y divide-white/10 *:p-4 md:*:p-8 bg-white/10 backdrop-blur-md rounded-t-xl">
-          <div className="text-md leading-snug flex flex-col gap-4">
-            <div className="flex gap-2 text-sm">
-              <Image
-                src="/mark.png"
-                width={avatarSize}
-                height={avatarSize}
-                alt="Mark Miro"
-                className="shrink-0 rounded-full sepia-[.25]"
-              />
-              <p>
-                Mark is a creative JavaScript and React developer / designer
-                based in Sacramento, California. He’s worked for Bay Area
-                companies like Thumbtack and TrustToken (now Archblock).
-              </p>
-            </div>
-            <div className="flex gap-2 text-sm">
-              <Image
-                src="/george.jpeg"
-                width={avatarSize}
-                height={avatarSize}
-                alt="George Michel"
-                className="shrink-0 rounded-full sepia-[.25]"
-              />
-              <p>
-                Mark is a creative JavaScript and React developer / designer
-                based in Sacramento, California. He’s worked for Bay Area
-                companies like Thumbtack and TrustToken (now Archblock).
-              </p>
-            </div>
+          <div className="flex flex-col sm:flex-row gap-4 text-sm">
+            <Image
+              src="/mark.png"
+              width={avatarSize}
+              height={avatarSize}
+              alt="Mark Miro"
+              className="shrink-0 rounded-full grayscale self-start"
+            />
+            <p>
+              Mark is a creative JavaScript and React developer / designer based
+              in Sacramento, California. He’s worked for Bay Area companies like
+              Thumbtack and TrustToken (now Archblock).
+            </p>
           </div>
-          <p className="text-md leading-snug">
-            Mark Miro and George Michel started Hexaity Consulting out of a
-            desire to bring about a new kind of consultancy. We were born out of
-            Sacramento’s local rhizomatic milieu.
+          <div className="flex flex-col-reverse gap-4 text-sm sm:flex-row-reverse text-right items-end">
+            <Image
+              src="/george.jpeg"
+              width={avatarSize}
+              height={avatarSize}
+              alt="George Michel"
+              className="shrink-0 grow-0 rounded-full grayscale"
+            />
+            <p>
+              George enjoys building things, including web and mobile
+              applications, 3D art, and interactive entertainment experiments.
+              Big fan of expressive, elegant code.
+            </p>
+          </div>
+          <p className="text-center leading-8">
+            contact [at] hexaity [dot] com
           </p>
-          <p className="text-xs text-white/50">
+          {/* 
+          <p className="text-md leading-snug">
+            Hexaity Consulting started out as a joke. But rest assured that it
+            is a legitimate and serious business.
+          </p> */}
+          <a
+            className="group block text-[9px] text-white/50 cursor-pointer"
+            href="https://en.wikipedia.org/wiki/Haecceity"
+            target="_blank"
+          >
             Haecceity (/hɛkˈsiːɪti, hiːk-/; from the Latin haecceitas, which
             translates as &ldquo;thisness&rdquo;) is a term from medieval
             scholastic philosophy, first coined by followers of Duns Scotus to
             denote a concept that he seems to have originated: the irreducible
             determination of a thing that makes it this particular thing.
             Haecceity is a person’s or object’s thisness
-            {/* TODO: link to wikipedia */}
-          </p>
-          <p className="text-center leading-8">
-            contact [at] hexaity [dot] com
-          </p>
+            <div className="text-xs text-white/80 pt-2 group-hover:underline underline-offset-2 decoration-white/20">
+              See Wikipedia article →
+            </div>
+          </a>
         </div>
       </main>
     </>
