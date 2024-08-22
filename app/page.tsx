@@ -1,7 +1,7 @@
+import { ContactButton } from "@/components/contact-button";
+import { ScrollArrow } from "@/components/scroll-arrow";
 import Image from "next/image";
 import { metadata } from "./layout";
-import { DoubleArrowDownIcon, ArrowRightIcon } from "@radix-ui/react-icons";
-import { ContactButton } from "@/components/contact-button";
 
 export default function Home() {
   const bgUrl = "/bg.jpg";
@@ -102,7 +102,7 @@ function Top() {
       </div>
       <div className="pt-8" />
       <ContactButton />
-      <DoubleArrowDownIcon className="size-4 absolute bottom-8 animate-pulse" />
+      <ScrollArrow />
     </div>
   );
 }
